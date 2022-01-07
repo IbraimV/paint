@@ -31,7 +31,7 @@ $('#reset-canvas').on('click',function (){
 })
 function saveImg() {
     let c = $('#canvas-wrapper').find('canvas');
-    let imageData = c[0].toDataURL('image/png'); // produces a base64 image string
+    let imageData = c[0].toDataURL('image/png');
     $.ajax({
         type: "POST",
         url: "processes.php",
