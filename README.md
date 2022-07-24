@@ -1,4 +1,4 @@
 # paint
-Тестовое задание рисовалка
+Paint app. This app has been create for job interview. 
 
-Для того чтобы работало сохранение изображений трубется php. Реализовал ajax запрос на php процессор для сохранения изображений. 
+In order for image saving to work, php is required. Implemented an ajax request to a php processor to save images.
